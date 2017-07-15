@@ -2,9 +2,9 @@
 
 Saves the result of a `f::read()` request in Kirby's local cache folder. If the cache is not expired, subsequent requests will be served from the local filesystem.
 
-- $url (string)  
+- **$url** (string)  
   The path for the request 
-- $expires (int) 
+- **$expires** (int)  
   Number of seconds until the cache expires (optional; defaults to 1 hour)
 
 ## Installation
